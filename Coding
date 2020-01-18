@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int a, b;
+	char ch;
+	cout<<"Enter first Number :";
+	cin>>a;
+	cout<<"Enter second Number :";
+	cin>>b;
+	cout<<"Enter operator (+, -, *, /) :";
+	cin>>c);
+	if(ch=='+')
+		cout<<"Result = "<<a+b;
+	else if(ch=='-')
+		cout<<"Result = "<<a-b;
+	else if(ch=='*')
+		cout<<"Result = "<<a*b;
+	else if(ch=='/')
+		cout<<"Result = "<<a/b;
+	else
+		cout<<"Wrong Operator!!!";
+	getch();
+}
